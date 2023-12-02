@@ -1,0 +1,135 @@
+.orderBody {
+  width: 80%;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 5rem;
+}
+
+.orderBody .noItems {
+  text-align: center;
+  padding: 3rem;
+}
+.orderBody .heading {
+  padding: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-top: 70px;
+  text-align: center;
+  color: orange;
+  align-items: center;
+}
+
+p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.4rem 1.2rem;
+  border-radius: 2rem;
+  margin: auto;
+  place-items: center;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  padding: 1rem;
+}
+
+.summary {
+  display: flex;
+}
+.summary p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  /* width: 45%; */
+}
+
+.datetime {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.container .items {
+  display: flex;
+  padding: 1rem;
+  width: 96%;
+}
+
+.items .image {
+  width: max-content;
+}
+
+.items .image img {
+  width: 10rem;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.items .info {
+  width: 35%;
+  padding: 0 0.8rem;
+}
+
+.items .info .itemName {
+  padding-bottom: 0.9rem;
+}
+.items .info small {
+  font-size: 1.25rem;
+}
+
+.items .info .orderId {
+  color: #5f5f5f;
+  font-size: 1.08rem;
+}
+
+.items .price {
+  width: 20%;
+  justify-content: flex-start;
+  align-items: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.items .deliver {
+  width: 40%;
+  display: flex;
+  display: block;
+}
+@media only screen and (max-width: 1025px){
+  .items .price{
+    margin-top: 10px;
+    margin-right: 150px;
+
+   }
+  
+  
+} 
+@media only screen and (max-width: 768px){
+  .items .price  {
+    margin-right: 150px;
+  }
+}
+@media only screen and (max-width: 426px){
+  .container {
+    width: 350px;
+  }
+  .items .price {
+    width: 10%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.container .items {
+  padding-bottom: 30px;
+}
+}
+
+
+

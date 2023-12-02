@@ -1,0 +1,42 @@
+/* PaymentMethodOptions.css */
+.payment-options {
+  padding: 20px;
+  background-color: "#f5f5ed";
+}
+
+.payment-dropdown {
+  width: 20%;
+  padding: 8px;
+  font-size: 20px;
+}
+/* PaymentMethodOptions.css */
+.payment-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.placeholder-text {
+  position: absolute;
+  pointer-events: none;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+/* Style for the placeholder option */
+.payment-dropdown option[disabled][hidden] {
+  display: none;
+}
+@media only screen and (max-width: 321px){
+  .payment-dropdown {
+    margin-top: 50px;
+    width: 60%;
+    font-size: 15px;
+  }
+}
+@media (min-width: 321px) and (max-width: 426px){
+  .payment-dropdown {
+    width: 60%;
+  }
+}

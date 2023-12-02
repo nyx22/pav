@@ -1,0 +1,38 @@
+/* OrderActions.css */
+.order-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.place-order-btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #ffd900;
+  color: #0a0101a4;
+}
+
+.place-order-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.wallet-balance {
+  font-style: italic;
+  color: #f44336;
+}
+.wallet-label {
+  font-style: italic;
+  color: #3695f4;
+  font-size: large;
+}
+.wallet-balance-message {
+  font-style: italic;
+  margin-top: 10px;
+  color: #f60a0a;
+}

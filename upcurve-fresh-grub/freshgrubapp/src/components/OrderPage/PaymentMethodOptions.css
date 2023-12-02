@@ -1,0 +1,30 @@
+/* PaymentMethodOptions.css */
+.payment-options {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.payment-dropdown {
+  width: 20%;
+  padding: 8px;
+  font-size: 20px;
+}
+/* PaymentMethodOptions.css */
+.payment-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.placeholder-text {
+  position: absolute;
+  pointer-events: none;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+/* Style for the placeholder option */
+.payment-dropdown option[disabled][hidden] {
+  display: none;
+}

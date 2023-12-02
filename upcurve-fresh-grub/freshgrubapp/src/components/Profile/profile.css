@@ -1,0 +1,90 @@
+.profile button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.profile img {
+  /* background-color: white; */
+}
+
+.menu-trigger img {
+  cursor: pointer;
+  border-radius: 50%;
+  /* height: 5rem; */
+  width: 4rem;
+  margin-right: 1rem;
+  background-color: white;
+}
+
+.menu {
+  background-color: #f5f5ed;
+  position: absolute;
+  right: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.4rem 1.2rem;
+  border-radius: 2rem;
+  place-items: center;
+  margin-top: 2%;
+  padding: 2rem;
+  z-index: 999;
+}
+
+.menu hr {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.menu ul li {
+  padding: 0.3rem 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu .dropdownItems {
+  display: flex;
+  transition: var(--speed);
+  align-items: center;
+}
+.menu .dropdownItem:hover {
+  transform: translateX(5px);
+}
+
+.dropdownItem img {
+  margin: 0.2rem;
+  margin-left: 0;
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+.dropdownItem span {
+  max-width: 100px;
+  margin-left: 0.2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.list {
+  text-decoration: none;
+}
